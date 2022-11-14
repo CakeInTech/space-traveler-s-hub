@@ -1,10 +1,11 @@
 import React from 'react';
 
 function Rocket() {
-  <div>
-    <h1>Rocket&appos;s page</h1>
-
-  </div>;
+  return (
+    <div>
+      <h2>Rocket&lsquo;s page</h2>
+    </div>
+  );
 }
 
 export default Rocket;
