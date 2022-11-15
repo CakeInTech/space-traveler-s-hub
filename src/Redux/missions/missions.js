@@ -13,8 +13,6 @@ export const fetchMissions = createAsyncThunk(FETCH_MISSIONS, async () => {
   }
 });
 
-export const allMissions = (state) => state.missions.missions;
-
 const initialState = {
   missions: [],
   status: null,
