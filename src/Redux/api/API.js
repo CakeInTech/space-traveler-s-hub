@@ -6,7 +6,7 @@ const API = {
     const data = await response.json();
     const missions = data.map(
       ({
-        missions_id: missionId,
+        mission_id: missionId,
         mission_name: missionName,
         description,
       }) => ({
