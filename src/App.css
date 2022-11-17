@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.card {
+  padding: 0;
+}
+
+.missionHolder,
+.profileHolder,
+.rocketHolder {
+  margin-top: 6rem;
+}
+
+.nullMessage {
+  text-align: center;
+  padding-top: 15px;
+}
