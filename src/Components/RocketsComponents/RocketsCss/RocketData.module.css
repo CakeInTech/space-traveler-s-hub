@@ -1,0 +1,19 @@
+.container {
+  margin: 0.5rem auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  height: 15rem;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
+
+.image {
+  width: 300px;
+}
+
+.description {
+  font-size: 20px;
+}
