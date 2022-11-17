@@ -25,7 +25,7 @@ const API = {
       ({
         rocket_id: rocketId,
         rocket_name: rocketName,
-        rocket_type: rocketType,
+        description: rocketType,
         flickr_images: rocketImages,
       }) => {
         const rocketImage = rocketImages[0];
