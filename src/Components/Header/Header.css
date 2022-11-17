@@ -1,6 +1,7 @@
 .navbar {
   position: fixed;
   padding: 0 2rem;
+
   /* height: 5rem; */
   border-bottom: 1px solid #ececec;
   z-index: 2;
