@@ -29,7 +29,7 @@ function Profile() {
         <h2>My Rockets</h2>
         <ListGroup>
           { reserveRocket.length === 0 ? (
-            <p className="nullMessage"> No Rockets Added  </p>
+            <p className="nullMessage"> No Rockets Added, Reserve first </p>
           ) : (
             reserveRocket.map(({
               rocketId, rocketName,
