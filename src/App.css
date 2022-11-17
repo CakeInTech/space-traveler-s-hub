@@ -6,10 +6,22 @@
 
 .card {
   padding: 0;
+  width: 50%;
+  border: none;
+}
+
+.container {
+  border: none;
+}
+
+.profileHolder {
+  margin: 6rem 2rem;
+  flex-wrap: nowrap;
+  display: flex;
+  gap: 2rem;
 }
 
 .missionHolder,
-.profileHolder,
 .rocketHolder {
   margin-top: 6rem;
 }
