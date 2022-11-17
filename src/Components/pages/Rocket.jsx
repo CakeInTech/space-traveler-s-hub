@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchRockets, reserveRocket } from '../../Redux/Rockets/Rockets';
 import RocketItem from '../RocketsComponents/RocketItem';
+import '../../App.css';
 
 function Rocket() {
   const dispatch = useDispatch();
@@ -15,8 +16,7 @@ function Rocket() {
   }, [dispatch]);
 
   return (
-    <main>
-      <hr />
+    <main className="rocketHolder">
       <div>
         <RocketItem rockets={rockets} handleReserveRocket={handleReserveRocket} />
       </div>
