@@ -24,7 +24,16 @@ const initialState = {
 const missionSlice = createSlice({
   name: 'missions',
   initialState,
-  reducers: {},
+  reducers: {
+    getMission: (state, action) => ({
+      ...state,
+      missions: [
+        ...state.missions.map((mission) => (mission.missionId === action.payload
+          ? { ...mission, joined: !mission.joined }
+          : mission)),
+      ],
+    }),
+  },
   extraReducers: {
     [fetchMissions.pending]: (state) => ({
       ...state,
@@ -42,5 +51,7 @@ const missionSlice = createSlice({
     }),
   },
 });
+
+export const { getMission } = missionSlice.actions;
 
 export default missionSlice.reducer;
