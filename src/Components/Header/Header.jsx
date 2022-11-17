@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <img className="nav-logo" src={logo} alt="The page Logo" />
           <a className="navbar-brand" href="/">Space Traveler&lsquo;s Hub</a>

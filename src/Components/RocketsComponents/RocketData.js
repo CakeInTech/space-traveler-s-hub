@@ -27,7 +27,8 @@ const RocketData = ({
               border: 'none',
               opacity: '1',
               margin: '0 8px',
-              padding: '2px 10px',
+              fontSize: '15px',
+              padding: '1px 8px',
             } : { display: 'none' }}
           >
             {reserve ? 'Reserved' : null}
